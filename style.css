@@ -1,0 +1,38 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topnav {
+  background-color: #000000;
+  color: #fff;
+}
+.topnav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px 16px;
+  display: block;
+  float: left;
+}
+.topnav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 254, 254);
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.8)),
+    url("https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  text-align: center;
+  padding: 20px;
+}
+.header h1 {
+  text-transform: uppercase;
+  padding: 20%;
+}
