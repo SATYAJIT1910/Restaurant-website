@@ -93,3 +93,62 @@
   width: 90%;
   height: 500px;
 }
+
+#contact {
+  padding: 10%;
+}
+
+#contact h1 {
+  font-family: Arial;
+  font-size: 45px;
+  margin: 2px;
+}
+#contact h3 {
+  font-size: 30px;
+  margin: 2px;
+}
+#contact p {
+  font-size: 25px;
+  margin: 2px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  margin: 1%;
+}
+
+div.column
+{
+    display: block;
+    text-align: center;
+}
+
+.indicator {
+  background-color: #dc143c;
+  color: #fff;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.discount {
+  background-color: #049929;
+  color: #fff;
+  padding: 2%;
+  border-radius: 20px; 
+}
+body {
+  color: white;
+}
+
+div.form1
+{
+    display: block;
+    text-align: left;
+    padding: 2%;
+    border-radius: 20px; 
+    
+}
